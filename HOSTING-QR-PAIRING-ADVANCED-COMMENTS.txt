@@ -1,0 +1,25 @@
+ALTITUDE 💀 — QR + PAIRING + ADVANCED COMMENTS
+
+Included:
+- WhatsApp Linked Devices QR login
+- Phone-number pairing-code login
+- Private browser login panel
+- Persistent session support
+- Advanced auto-comment/reply pack
+- Existing moderation features retained
+
+Hosting:
+1. npm install
+2. Set LOGIN_TOKEN to a long random secret.
+3. Optional: set PAIRING_NUMBER in international format (example 923001234567).
+4. Start with: npm start
+5. Open your host URL with ?token=YOUR_LOGIN_TOKEN
+
+WhatsApp:
+- QR: WhatsApp > Linked devices > Link a device.
+- Pairing: WhatsApp > Linked devices > Link with phone number.
+
+Security:
+Keep the login URL, token and pairing code private.
+Use persistent storage for auth/ and data/ on the hosting provider.
+Do not use the bot for unsolicited bulk messaging.

@@ -1,0 +1,49 @@
+{
+  "botName": "ALTITUDE 💀",
+  "prefix": "!",
+  "ownerNumbers": [
+    "923240993066"
+  ],
+  "settings": {
+    "antiLink": true,
+    "antiSpam": true,
+    "antiFlood": true,
+    "antiBadWords": true,
+    "antiMedia": false,
+    "welcome": true,
+    "goodbye": true,
+    "autoReplies": true,
+    "deleteWarnedMessages": true,
+    "maxWarnings": 3,
+    "flood": {
+      "messages": 7,
+      "windowSeconds": 10
+    },
+    "cooldownMs": 1200
+  },
+  "media": {
+    "blockImage": false,
+    "blockVideo": false,
+    "blockAudio": false,
+    "blockDocument": false,
+    "blockSticker": false
+  },
+  "badWords": [
+    "spamword1",
+    "spamword2",
+    "example-badword"
+  ],
+  "allowedDomains": [
+    "youtube.com",
+    "youtu.be",
+    "instagram.com"
+  ],
+  "branding": {
+    "header": "╔════════════════════════════╗\n        ALTITUDE 💀 BOT\n╚════════════════════════════╝",
+    "footer": "Powered by ERROR 💀\nFollow ERROR 💀 Channel:\nhttps://whatsapp.com/channel/0029VbDmAYDCcW4vL9pQTH0o"
+  },
+  "channel": {
+    "name": "ERROR 💀",
+    "url": "https://whatsapp.com/channel/0029VbDmAYDCcW4vL9pQTH0o"
+  }
+}

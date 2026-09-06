@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: altitude-whatsapp-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: LOGIN_TOKEN
+        sync: false
+      - key: PAIRING_NUMBER
+        sync: false
+      - key: LOG_LEVEL
+        value: silent
